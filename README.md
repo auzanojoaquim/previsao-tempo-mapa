@@ -1,9 +1,9 @@
+![Status do Projeto](https://img.shields.io/badge/status-estável-brightgreen?style=for-the-badge)  
+
 # 🌦️ Previsão do Tempo - mapa
 # Mini App
 
-![Status do Projeto](https://img.shields.io/badge/status-estável-brightgreen?style=for-the-badge)  
-
-Este é a versão V2 do aplicativo [previsao-tempo](https://auzanojoaquim.github.io/previsao-tempo/), um app simples de previsão do tempo.  
+Este é a versão V2 do aplicativo [previsao-tempo](https://auzanojoaquim/previsao-tempo/), um app simples de previsão do tempo.  
 
 Está versão foi construído com **React + Vite + TailwindCSS**. Permite pesquisar qualquer localidade e visualizar informações climáticas em tempo real, incluindo:    
 🌡️ Temperatura,      
