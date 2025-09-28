@@ -3,7 +3,7 @@
 # 🌦️ Previsão do Tempo - mapa
 # Mini App
 
-Este é a versão V2 do aplicativo [previsao-tempo](https://auzanojoaquim/previsao-tempo/), um app simples de previsão do tempo.  
+Este é a versão 2.0 do app [previsao-tempo](https://auzanojoaquim/previsao-tempo/), um app simples de previsão do tempo.  
 
 Está versão foi construído com **React + Vite + TailwindCSS**. Permite pesquisar qualquer localidade e visualizar informações climáticas em tempo real, incluindo:    
 🌡️ Temperatura,      
