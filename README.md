@@ -81,9 +81,9 @@ VITE_API_KEY=SUA_CHAVE_AQUI
 ✅ Exibição da temperatura atual  
 ✅ Umidade e sensação térmica  
 ✅ Velocidade do vento em km/h  
-✅ Interface minimalista e responsiva
-✅ Suporte a modo claro/escuro
-
+✅ Interface intuitiva e responsiva    
+✅ Suporte a modo claro/escuro    
+✅ Mapa interativa (para geolocalização)
 
 ---
 
