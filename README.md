@@ -1,16 +1,101 @@
-# React + Vite
+# 🌦️ Previsão do Tempo - mapa
+# Mini App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status do Projeto](https://img.shields.io/badge/status-estável-brightgreen?style=for-the-badge)  
 
-Currently, two official plugins are available:
+Este é a versão V2 do aplicativo [previsao-tempo](https://auzanojoaquim.github.io/previsao-tempo/), um app simples de previsão do tempo.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Está versão foi construído com **React + Vite + TailwindCSS**. Permite pesquisar qualquer localidade e visualizar informações climáticas em tempo real, incluindo:    
+🌡️ Temperatura,      
+💧 Umidade,             
+😌 Sensação térmica,  
+🌬️ Velocidade do vento,  
+🗺️ Localização no mapa.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots  
+   <h5>Modo claro vs modo escuro</h5>
+<div style="display: flex; grap: 10px; justify-content: center;">
+<img src="./screenshots/modo-light.jpg" alt="Modo claro" width="45%"/>
+  <img src="./screenshots/modo-dark.jpg" alt="Modo escuro" width="45%"/>
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias Utilizadas  
+
+![React](https://img.shields.io/badge/React-18.0.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)    
+![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)    
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  
+![OpenWeather API](https://img.shields.io/badge/OpenWeather-API-orange?style=for-the-badge&logo=openweather&logoColor=white)    
+
+---
+
+## 📦 Como Rodar o Projeto  
+
+Clone este repositório e instale as dependências:  
+
+```bash
+git clone https://github.com/auzanojoaquim/previsao-tempo-mapa.git  
+cd previsao-tempo-mapa
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O app ficará disponível em:👇
+```
+http://localhost:5173
+```
+
+
+---
+
+🔑 Configuração da API
+
+Este projeto utiliza a OpenWeather API.
+
+1. Crie uma conta gratuita em OpenWeather.
+
+
+2. Gere sua chave de API.
+
+
+3. Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
+
+
+```
+VITE_API_KEY=SUA_CHAVE_AQUI
+```
+
+---
+
+✨ Funcionalidades
+
+✅ Pesquisa de local  
+✅ Exibição da temperatura atual  
+✅ Umidade e sensação térmica  
+✅ Velocidade do vento em km/h  
+✅ Interface minimalista e responsiva
+✅ Suporte a modo claro/escuro
+
+
+---
+
+👨🏽‍💻👨🏽‍💻 Autor
+
+Desenvolvido por [Auzano Joaquim ](https://github.com/auzanojoaquim)
+
+---
+
+📜 Licença
+
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+Este projeto está sob a licença MIT.
+Sinta-se à vontade para usar, modificar e compartilhar!
