@@ -5,7 +5,7 @@
 
 Este é a versão mais atualizada do site [previsao-tempo](https://github.com/auzanojoaquim/previsao-tempo/), um app simples de previsão do tempo.  
 
-Está realdadee foi construído com **React + Vite + TailwindCSS**. Permite pesquisar qualquer localidade e visualizar informações climáticas em tempo real, incluindo:    
+Está realdadee foi construído com **React + Vite + TailwindCSS**. Permite pesquisar qualquer localidade, visualizar o mapa e suas informações climáticas em tempo real, incluindo:    
 🌡️ Temperatura,      
 💧 Umidade,             
 😶‍🌫️ Sensação térmica,  
