@@ -88,8 +88,8 @@ function App() {
 
   return (
     <div className="p-4">
-       <h1>⛅Tempo e localização</h1>
-        <h6>Verifique o tempo e a localização de um local</h6>
+       <h1>⛅ GeoClima</h1>
+        <h6>Verifique o clima e a geolocalização de uma cidade</h6>
       <div className="mb-4">
         <input
           type="text"
