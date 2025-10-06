@@ -1,14 +1,14 @@
 ![Status do Projeto](https://img.shields.io/badge/status-estável-brightgreen?style=for-the-badge)  
 
-# 🌦️ Previsão do Tempo - mapa
-# Mini App
+# 🌦️ GeoClima
+# Geolocalização e Clima
 
-Este é a versão 2.0 do app [previsao-tempo](https://github.com/auzanojoaquim/previsao-tempo/), um app simples de previsão do tempo.  
+Este é a versão mais atualizada do site [previsao-tempo](https://github.com/auzanojoaquim/previsao-tempo/), um app simples de previsão do tempo.  
 
-Está versão foi construído com **React + Vite + TailwindCSS**. Permite pesquisar qualquer localidade e visualizar informações climáticas em tempo real, incluindo:    
+Está realdadee foi construído com **React + Vite + TailwindCSS**. Permite pesquisar qualquer localidade e visualizar informações climáticas em tempo real, incluindo:    
 🌡️ Temperatura,      
 💧 Umidade,             
-😌 Sensação térmica,  
+😶‍🌫️ Sensação térmica,  
 🌬️ Velocidade do vento,  
 🗺️ Localização no mapa.  
 
@@ -17,8 +17,8 @@ Está versão foi construído com **React + Vite + TailwindCSS**. Permite pesqui
 ## 📸 Screenshots  
    <h5>Modo claro vs modo escuro</h5>
 <div style="display: flex; grap: 10px; justify-content: center;">
-<img src="./screenshots/modo-light.jpg" alt="Modo claro" width="45%"/>
-  <img src="./screenshots/modo-dark.jpg" alt="Modo escuro" width="45%"/>
+<img src="./screenshots/modo-light.png" alt="Modo claro" width="45%"/>
+  <img src="./screenshots/modo-dark.png" alt="Modo escuro" width="45%"/>
 </div>
 
 ---
@@ -37,8 +37,8 @@ Está versão foi construído com **React + Vite + TailwindCSS**. Permite pesqui
 Clone este repositório e instale as dependências:  
 
 ```bash
-git clone https://github.com/auzanojoaquim/previsao-tempo-mapa.git  
-cd previsao-tempo-mapa
+git clone https://github.com/auzanojoaquim/GeoClima.git  
+cd GeoClima
 npm install
 ```
 
